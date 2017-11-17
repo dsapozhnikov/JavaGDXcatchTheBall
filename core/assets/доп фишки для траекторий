@@ -1,0 +1,67 @@
+Random rand = new Random();
+//	public void update(float dt) {
+//      int i = rand.nextInt(2);
+//		float r =obj.vy*dt;
+//		float rx =obj.vx*dt;
+//		if (Gdx.input.isKeyPressed(Input.Keys.D)) {
+//		if (Gdx.input.isButtonPressed(Input.Buttons.LEFT)) {
+//			bita.angle=125;}
+//
+//			bita.x+=bita.vx*dt;
+//
+//		}
+//		if (Gdx.input.isKeyPressed(Input.Keys.A)) {
+//			if (Gdx.input.isButtonPressed(Input.Buttons.LEFT)) {
+//				bita.angle = 125;
+//			}
+//			bita.x-=bita.vx*dt;
+//		}
+//
+//		obj.y +=(int) obj.vy * dt;          //  движение мяча по игрику
+//		obj.x +=(int) obj.vx * dt;          //  движение мяча по иксу
+//		obj.angle+=6;
+//
+//		if ((int)obj.y+r>1280) {    //  верхняя граница
+//			obj.y=1280-r;
+//			obj.vy *= -1;
+//			obj.x+=2;
+//
+//
+//				}
+//		if ((int)obj.x+(int)rx>1280) {  // правая граница для мяча
+//			obj.x= (int) (1280-rx);
+//			obj.vx *= -1;
+//			obj.x-=2;
+//
+//
+//		}
+//		if ((int)obj.x-(int)rx<0) {     // левая граница
+//			obj.x=(int)rx;
+//			if (i==1) {
+//				obj.x+=25;
+//				obj.vx *= -1;
+//			}
+//
+//			//obj.vx *= -1;
+//
+//		}
+//
+//		if ((int)obj.x<(int)bita.x+301&&(int)obj.x>(int)bita.x-301&&(int)obj.y<(int)bita.y+270) { // условие отбивания от биты( нижняя граница) cast to int  - для более точнного определения границ
+//
+//			if (i==0){
+//
+//				obj.vy *= -1;        // изменение направления после отскакивания от биты в случайную сторону посредством рандома
+//				obj.vx *= 1;
+//
+//			}if (i==1) {
+//
+//				obj.vy *= -1;         // изменение направления после отскакивания от биты в случайную сторону посредством рандома
+//				obj.vx *= -1;
+//
+//			}
+//
+//		}
+//		if (obj.y<-175) {
+//			JOptionPane.showMessageDialog(null,"ball is lost!","You loose!",JOptionPane.INFORMATION_MESSAGE);
+//			dispose();
+//		}
