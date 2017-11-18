@@ -13,7 +13,7 @@ import javax.swing.*;
 
 
 /*
-Создаем игру простую  для отбивания мяча битой
+Создаем простую игру, которая сводится к тому чтобы не потерять мяч, отбивая его битой
  */
 
 public class MyGdxGame extends ApplicationAdapter {
